@@ -1,6 +1,5 @@
 # livecodingtv-bot
 
-# NO LONGER SUPPORTED
 
 ## BEFORE YOU BEGIN!
 ### This node app uses ES6 features.
