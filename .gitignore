@@ -37,3 +37,6 @@ brain
 
 # Don't commit settings.json file
 /setup/custom
+
+.sublime-project
+.sublime-workspace

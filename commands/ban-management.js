@@ -3,7 +3,6 @@
 const xmpp = require('node-xmpp-client');
 const Assets = require('../utils/Assets');
 const Websocket = require('../utils/Websocket');
-const Say = require('../utils/Say');
 const Log = require('../utils/Log');
 const Client = require('../utils/Client');
 const Settings = require('../utils/Settings');
@@ -128,11 +127,6 @@ class BanManagement {
                 animation: 'flyLeft'
             });
 
-            let banSayMessage = Settings.getSetting('ban-management', 'banSayMessage');
-            let message = Templater.run( banSayMessage, {
-                username: username
-            } );
-            Say.say( message, 'Daniel' );
         });
     }
 
